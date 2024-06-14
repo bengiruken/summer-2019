@@ -6,8 +6,7 @@ Created on Sun Dec 29 22:48:06 2019
 @author: bengi
 """
 
-#klinik datayı okuma, orijinal dosyadan
-#tumor type ve tumor stage için içeren data frame döndürüyor
+
 def tumor_type_stage_as_DataFrame():
     import pandas as pd
     xls = pd.ExcelFile("/Users/bengi/Desktop/pik3ca/GitHub_codes_data/Data/NIHMS978596-supplement-1.xlsx")
@@ -17,7 +16,7 @@ def tumor_type_stage_as_DataFrame():
     return data
 tumor_type_stage_as_DataFrame()
 ##################
-#klinik datayı okuma, orijinal dosyadan
+
     
 def survival_data():
     import pandas as pd
@@ -47,5 +46,3 @@ def survival_data():
     return survival_data
 
 ####################
-#kaplan meier ve logrank test nasıl yapılır
-#bu ikisii fonksiyon olarak yaz, modüler olarak yaz
