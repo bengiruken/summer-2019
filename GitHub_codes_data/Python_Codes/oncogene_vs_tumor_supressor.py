@@ -5,9 +5,7 @@ Created on Mon Dec 30 18:30:36 2019
 
 @author: bengi
 """
-'''aşağıdaki kısım oncogene-tumor supressor- maf dosyasını entegre edip dosyalara yazdırma'''
-#''' ''' arasında kalan kısım başka dosyalara yazılabilir
-'''
+
 def create_folder():
     import os
     dirName = 'Tumor_Supp_Oncogene'
