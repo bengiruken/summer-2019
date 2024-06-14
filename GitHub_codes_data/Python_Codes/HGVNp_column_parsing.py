@@ -7,8 +7,7 @@ Created on Sun Dec 29 18:07:00 2019
 """
 
 '''HGVNp_short column parsing '''
-#Sadece point mutation olan line'lar ve mutasyondan sonra oluşan residue'nun ne olduğuna dair bilgi varsa
-#line'ı yazdırıyoruz
+#point mutation information
 '''MUTATION CASES
 *First two cases are the same 
 1.)Frame_Shift_Del
