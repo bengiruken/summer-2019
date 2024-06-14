@@ -6,7 +6,7 @@ Created on Sun Dec 29 21:07:21 2019
 @author: bengi
 """
 
-''' "2_{}_point_mutations.txt".format(gene_name) dosyasını parse et'''
+''' "2_{}_point_mutations.txt".format(gene_name)  parsing'''
 def tumor_ids(gene_name):
     filename = "/Users/bengi/Desktop/pik3ca/GitHub_codes_data/{}/2_{}_point_mutations.txt".format(gene_name,gene_name)
     infile = open( "{}".format(filename) , 'r')
@@ -86,7 +86,7 @@ def double_mutations(gene_name):
 #a=double_mutations('PIK3R1')     
 #list(a)
 #################
-#hangi mutasyon çifti hangi hastalarda var
+#mutation pair:patient match
 def double_mutation_patient_dict(gene_name):
     double_mutation_set = double_mutations(gene_name)
     patient_mutation_dict = patient_mutated_residues(gene_name)
